@@ -10,8 +10,8 @@ namespace EmailValidator
     {
         public bool IsValid(string email)
         {
-            
-         return email.Contains("@");
+
+            return email.Contains("@") && email.Contains(".");
         }
 
     }
